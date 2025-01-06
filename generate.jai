@@ -1,7 +1,3 @@
-// This is just a small example of compiling a C++ library, generating bindings for it and using them.
-// Look at modules/ImGui/generate.jai or modules/d3d11/generate.jai
-// for more comprehensive examples of how to use the bindings generator.
-
 #run build();
 
 build :: () {
@@ -52,7 +48,4 @@ generate_bindings :: () -> bool {
 
 #import "Basic";
 #import "Compiler";
-#import "BuildCpp";
-#import "Check";
 #import "Bindings_Generator";
-#import "File";
